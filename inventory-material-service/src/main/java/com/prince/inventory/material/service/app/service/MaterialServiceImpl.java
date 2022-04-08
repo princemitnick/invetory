@@ -5,10 +5,12 @@ import com.prince.inventory.material.service.app.entity.enumerations.Category;
 import com.prince.inventory.material.service.app.entity.enumerations.Status;
 import com.prince.inventory.material.service.app.repository.MaterialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MaterialServiceImpl implements  MaterialService{
 
 
