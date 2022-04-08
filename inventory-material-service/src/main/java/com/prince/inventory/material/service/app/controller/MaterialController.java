@@ -41,4 +41,9 @@ public class MaterialController {
     public List<Material> getMaterialByCategory(@PathVariable("category")Category category){
         return materialService.getAllMaterialsByCategory(category);
     }
+
+    @GetMapping("/one/{id}")
+    public Material getOneMaterial(@PathVariable("id") Long materialId){
+        return materialService.getOneMaterial(materialId);
+    }
 }

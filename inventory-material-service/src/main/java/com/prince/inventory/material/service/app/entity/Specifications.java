@@ -20,6 +20,7 @@ public class Specifications {
     private BigDecimal ramCapacity;
     private String cpuDescription;
     private StorageType storageType;
+    private BigDecimal storageCapacity;
 
 
 
