@@ -11,6 +11,10 @@ spring:
           uri: lb://MATERIAL-SERVICE
           predicates:
             - Path=/api/v1/materials/**
+        - id: EMPLOYEE-SERVICE
+          uri: lb://EMPLOYEE-SERVICE
+          predicates:
+            - Path=/api/v1/employees/**
 
 
 eureka:
